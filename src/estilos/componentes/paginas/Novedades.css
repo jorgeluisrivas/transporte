@@ -1,0 +1,12 @@
+.novedades{
+    
+    padding: 7px;
+    border-bottom: 2px dashed #fff;
+
+}
+
+.novedades h1{
+    font-style: italic;
+    line-height: 1;
+    text-align: center;
+}

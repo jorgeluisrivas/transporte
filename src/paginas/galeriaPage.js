@@ -5,25 +5,34 @@ const galeriaPage = (props) => {
         <div className="holder">
             <div className="galeria">
                 <div className="foto">
-                    <img src="img/galeria/img01.jpg" alt="" />
+                    <img src="img/galeria/1.jpg" alt="" />
                 </div>
                 <div className="foto">
-                    <img src="img/galeria/img02.jpg" alt="" />
+                    <img src="img/galeria/2.jpg" alt="" />
                 </div>
                 <div className="foto">
-                    <img src="img/galeria/img03.jpg" alt="" />
+                    <img src="img/galeria/3.jpg" alt="" />
+                   </div>
+                <div className="foto">
+                    <img src="img/galeria/4.jpg" alt="" />
                 </div>
                 <div className="foto">
-                    <img src="img/galeria/img04.jpg" alt="" />
+                    <img src="img/galeria/5.jpg" alt="" />
                 </div>
                 <div className="foto">
-                    <img src="img/galeria/img05.jpg" alt="" />
+                    <img src="img/galeria/6.jpg" alt="" />
                 </div>
                 <div className="foto">
-                    <img src="img/galeria/img06.jpg" alt="" />
+                    <img src="img/galeria/7.jpg" alt="" />
+                </div>
+                {/* <div className="foto">
+                    <img src="img/galeria/11.jpg" alt="" />
+                </div> */}
+                <div className="foto">
+                    <img src="img/galeria/123.jpg" alt="" />
                 </div>
                 <div className="foto">
-                    <img src="img/galeria/img07.jpg" alt="" />
+                    <img src="img/galeria/10.jpg" alt="" />
                 </div>
             </div>
         </div>

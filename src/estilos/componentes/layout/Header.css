@@ -1,14 +1,26 @@
-header{
-    background-color: #2e64a1;
-    padding: 1em 0;
+
+
+.holder1{
+    background-image: url(https://www.lanasa.net/application/files/1416/2851/9030/news_Perseidas090821.jpg);
+    
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    
 }
 
-header h1{
-    color: #fff;
-    font-size: 2.5em;
+
+
+.texto{
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    font-size: 80px;
     font-style: italic;
-    font-weight: 100;
-    display: inline-block;
-    position: relative;
-    bottom: 30px;
+    font-weight: bold;
+    background-image: url(https://solarsystem.nasa.gov/system/resources/detail_files/2486_stsci-h-p1936a_1800.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

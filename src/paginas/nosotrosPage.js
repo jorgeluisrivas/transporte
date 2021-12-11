@@ -4,57 +4,16 @@ const NosotrosPage = (props) => {
     return (
         <div className="holder">
             <div className="historia">
-                <h2>Historia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugit laboriosam voluptatibus,
-                    cupiditate facilis hic, ipsa repudiandae perspiciatis cumque omnis, fuga eum corporis! Libero, at
-                    repellat nihil obcaecati eaque vero.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ab sapiente itaque illum
-                    delectus distinctio nam alias autem consequuntur tempore ipsam, ipsa, molestiae laboriosam aliquam
-                    sequi. Ipsa consequuntur deserunt dicta?</p>
+                <h2>Fases y eclipses</h2>
+                <p>La luz de la luna que vemos en la Tierra es la luz del sol reflejada en la superficie blanca grisácea de la Luna. La cantidad de Luna que vemos cambia durante el mes ( fases lunares ) porque la Luna orbita la Tierra y la Tierra orbita al Sol. Todo se mueve.</p>
+                <p>Durante un eclipse lunar , la Tierra se interpone entre el Sol y la Luna, bloqueando la luz solar que cae sobre la Luna. La sombra de la Tierra cubre toda o parte de la superficie lunar.</p>
             </div>
             <div className="staff">
-                <h2>Staff</h2>
+                <h2>Fases</h2>
                 <div className="personas">
-                    <div className="persona">
-                        <img src="img/nosotros/nosotros1.jpg" alt="" />
-                        <h5>Juan Perez</h5>
-                        <h6>Gerente General</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos enim magnam omnis dolores
-                            facilis debitis harum officia dolore, eaque sed. Laboriosam maiores minus dolore autem
-                            molestiae modi omnis, aperiam nesciunt.</p>
-                    </div>
-                    <div className="persona">
-                        <img src="img/nosotros/nosotros2.jpg" alt="" />
-                        <h5>Maria Carambula</h5>
-                        <h6>Gerente Comercial</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos enim magnam omnis dolores
-                            facilis debitis harum officia dolore, eaque sed. Laboriosam maiores minus dolore autem
-                            molestiae modi omnis, aperiam nesciunt.</p>
-                    </div>
-                    <div className="persona">
-                        <img src="img/nosotros/nosotros3.jpg" alt="" />
-                        <h5>Esteban Cambiasso</h5>
-                        <h6>Gerente de Sistemas</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos enim magnam omnis dolores
-                            facilis debitis harum officia dolore, eaque sed. Laboriosam maiores minus dolore autem
-                            molestiae modi omnis, aperiam nesciunt.</p>
-                    </div>
-                    <div className="persona">
-                        <img src="img/nosotros/nosotros4.jpg" alt="" />
-                        <h5>Giselle Campilongo</h5>
-                        <h6>Gerente de Marketing</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos enim magnam omnis dolores
-                            facilis debitis harum officia dolore, eaque sed. Laboriosam maiores minus dolore autem
-                            molestiae modi omnis, aperiam nesciunt.</p>
-                    </div>
-                    <div className="persona">
-                        <img src="img/nosotros/nosotros5.jpg" alt="" />
-                        <h5>Roberto Salgan</h5>
-                        <h6>Gerente Logistica</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos enim magnam omnis dolores
-                            facilis debitis harum officia dolore, eaque sed. Laboriosam maiores minus dolore autem
-                            molestiae modi omnis, aperiam nesciunt.</p>
-                    </div>
+                    
+                       <img src="/../img/nosotros/123.jpg" />
+                    <p>Este gráfico muestra por qué sucede esto. El anillo central muestra la luna mientras gira alrededor de la Tierra, como se ve desde arriba del polo norte. La luz del sol ilumina la mitad de la Tierra y la mitad de la luna en todo momento. Pero a medida que la luna orbita alrededor de la Tierra, en algunos puntos de su órbita, la parte iluminada por el sol de la luna se puede ver desde la Tierra, y en otros puntos, solo podemos ver las partes de la luna que están en la sombra. El anillo exterior muestra lo que vemos en la Tierra durante cada parte correspondiente de la órbita de la luna.</p>  
                 </div>
             </div>
         </div>

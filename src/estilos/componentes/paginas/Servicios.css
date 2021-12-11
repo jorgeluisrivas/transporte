@@ -12,12 +12,13 @@
 }
 
 .servicio .info h4{
-    color: #2e64a1;
-    font-size: 1.2em;
+    color: #f50622;
+    font-size: 1.3em;
+    text-align: center;
     font-style: italic;
     font-weight: 500;
     margin: 0 0 1em;
-    border-bottom: 1px solid #2e64a1;
+    border-bottom: 1px solid #f50622;
     padding-bottom: .5em;
 }
 
@@ -28,6 +29,7 @@
 
 .servicio img{
     border-radius: .8em;
+    box-shadow: 6px 4px 86px 9px rgba(232,218,218,0.75);
 }
 
 .servicio:nth-child(even) img{

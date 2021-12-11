@@ -6,13 +6,22 @@
     border: 1px solid #ddd;
     padding: .3em;
     box-sizing: border-box;
-}
+} 
+
 
 .galeria .foto img{
     width: 100%;
-    display: block;
-}
-
+    display: inline-block;
+} 
+ 
 .galeria .foto:nth-child(5n+1){
     margin-left: 0;
 }
+
+.galeria .foto:hover{
+    background-color: #000;
+    transform: scale(1.4);
+   
+    
+}
+

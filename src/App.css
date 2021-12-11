@@ -1,7 +1,8 @@
 body{
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 17px;
+  
+  color: #fff;
 }
 
 .holder{
@@ -9,8 +10,9 @@ body{
   margin: 0 auto;
 }
 
+
 h2{
-  color: #2e64a1;
+  color: #7fa7d4;
   font-weight: 400;
   margin: 0 0 1em;
   padding-top: 10px;
@@ -23,3 +25,4 @@ h2{
 .right{
   float: right;
 }
+

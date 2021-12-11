@@ -1,15 +1,34 @@
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+import NovedadItem from '../componentes/novedades/NovedadItem';
 import '../estilos/componentes/paginas/Novedades.css'
 
 const NovedadesPage = (props) => {
+
+    const [loading, setLoading]= useState(false);
+    const [novedades, setNovedades]= useState([]);
+
+    useEffect(() =>{
+        const cargarNovedades= async()=>{
+            setLoading(true);
+            const response= await axios.get('http://localhost:3000/api/novedades');
+            setNovedades(response.data);
+            setLoading(false);
+        };
+
+        cargarNovedades();
+    }, []);
+
     return (
-        <div className="holder">
+        <div className="holder" id="nove">
             <h2>Novedades</h2>
-            <div className="novedades">
-                <h3>Titulo</h3>
-                <h4>Subtitulo</h4>
-                <p><b>Descripción</b>-Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum saepe inventore ab possimus nihil corporis facilis, placeat iusto enim porro modi laboriosam fugit eveniet voluptatem necessitatibus deserunt libero quaerat debitis.</p>
-                <hr />
-            </div>
+            {loading ? (
+                <p>Cargando...</p>
+            ) :(
+                novedades.map(item=> <NovedadItem key={item.id}
+                    title={item.titulo} subtitle={item.subtitulo}
+                    imagen={item.imagen} body={item.cuerpo} />)
+            )}
         </div>
     )
 }

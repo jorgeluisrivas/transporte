@@ -46,11 +46,11 @@ const ContactoPage = (props) => {
                     <form action="/contacto" method="post" className="formulario" onSubmit={handleSubmit}>
                         <p>
                             <label for="">Nombre</label>
-                            <input type="text" name="nombre" value={formData.nombre} onChange={handleChange}/>
+                            <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} required/>
                         </p>
                         <p>
                             <label for="">Email</label>
-                            <input type="email" name="email" value={formData.email} onChange={handleChange}/>
+                            <input type="email" name="email" value={formData.email} onChange={handleChange} required/>
                         </p>
                         <p>
                             <label for="">Teléfono</label>
@@ -63,6 +63,7 @@ const ContactoPage = (props) => {
                         <p className="acciones">
                             <input type="submit" value="Enviar" />
                         </p>
+                        
                         {sending ? <p>Enviando...</p> : null}
                         {msg ? <p>{msg}</p> : null}
 
